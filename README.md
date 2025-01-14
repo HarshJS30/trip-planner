@@ -15,7 +15,7 @@ A full-stack travel planner application that helps users plan and manage their t
 - **Frontend**: React, Vite, HTML, CSS, JavaScript
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
-- **Deployment**: Heroku (for backend), Vercel (for frontend)
+- **Deployment**: Render (for backend), Vercel (for frontend)
 
 ## Setup
 
