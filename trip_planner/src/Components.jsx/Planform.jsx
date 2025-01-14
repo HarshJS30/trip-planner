@@ -30,7 +30,7 @@ function TripForm() {
     };
 
     try {
-      const response = await axios.post('http://localhost:5000/plans', formData);
+      const response = await axios.post('https://trip-planner-1-6wx3.onrender.com/plans', formData);
       console.log(response.data); 
       alert('Form saved');
       navigate(`/trip/${response.data._id}`); 

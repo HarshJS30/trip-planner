@@ -15,7 +15,7 @@ function CurrentTrip() {
   useEffect(() => {
     const getTrip = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/plans/${tripId}`);
+        const res = await axios.get(`https://trip-planner-1-6wx3.onrender.com/plans/${tripId}`);
         console.log(res.data); // Debugging API response
 
         const start = new Date(res.data.startDate);

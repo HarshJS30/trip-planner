@@ -9,7 +9,7 @@ function TripList() {
   useEffect(() => {
     const fetchTrips = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/plans');
+        const response = await axios.get('https://trip-planner-1-6wx3.onrender.com/plans');
         setTrips(response.data);
         
         const initialState = response.data.reduce((acc, trip) => {
