@@ -6,7 +6,7 @@ const planRouter = require('./routes/route');
 const app = express();
 const port = process.env.PORT||5000;
 
-const mongoURI = 'mongodb+srv://admin:kv5PJ6Y4PlkyTTlf@cluster0.abh2p.mongodb.net/trip_planner';
+const mongoURI = 'mongodb+srv://admin:harsh@9451@cluster0.abh2p.mongodb.net/trip_planner';
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
